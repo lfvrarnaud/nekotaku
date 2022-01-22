@@ -1,0 +1,108 @@
+.mostPopulary {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.most-not-margin {
+  margin: 0 !important;
+}
+
+.carousel-container {
+  display: flex;
+}
+
+.carousel-card {
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--primary);
+}
+
+.carousel-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column-reverse;
+  text-align: center;
+  width: 200px;
+  padding: 20px 0;
+  color: var(--light);
+  position: relative;
+  height: 250px;
+}
+
+.carousel-title {
+  padding: 20px 0 0 0;
+}
+
+.carousel-title {
+  padding: 20px 0 0 0;
+}
+
+.carousel-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-icon {
+  display: flex;
+  font-size: small;
+  padding: 5px;
+}
+
+.carousel-icon > p {
+  padding: 0 0 0 10px;
+}
+
+.carrousel-img {
+  width: 100%;
+}
+
+.carrousel-filter {
+  height: 250px;
+  width: 200px;
+  background: rgb(0, 0, 0);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9472163865546218) 0%,
+      rgba(0, 0, 0, 0.8687850140056023) 15%,
+      rgba(0, 0, 0, 0.7259278711484594) 33%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  position: absolute;
+  top: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .carousel-container {
+    flex-direction: column;
+  }
+
+  .carousel-container > div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .carrousel-filter {
+    top: unset;
+    right: 200px;
+  }
+
+  .carousel-title-container {
+    z-index: 1;
+  }
+
+  .mostPopulary .MuiMobileStepper-root {
+    width: 300px;
+  }
+
+  .mostPopulary {
+    display: flex;
+    align-items: center;
+  }
+}

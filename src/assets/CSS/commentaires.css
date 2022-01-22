@@ -1,0 +1,45 @@
+.commentaires-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.commentaires-input-container.p {
+  width: 100%;
+}
+
+.commentaires-input-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentaires-input-container > div {
+  overflow: auto;
+}
+
+.input-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.input-flex fieldset {
+  border: none;
+}
+
+.input-flex.button-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.input-flex.button-flex button {
+  color: #003f4f;
+  background-color: #f4f4f4;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+}

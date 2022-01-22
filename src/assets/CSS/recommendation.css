@@ -1,0 +1,22 @@
+
+.reco-categories {
+    margin: 20px 50px;
+}
+
+.reco-mangas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.reco-central {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.randomCards {
+    color: var(--light);
+}

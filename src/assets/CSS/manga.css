@@ -1,0 +1,254 @@
+.banner {
+  position: relative;
+  height: 400px;
+}
+
+.banner-filter {
+  height: 400px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9472163865546218) 0%,
+      rgba(0, 0, 0, 0.8687850140056023) 15%,
+      rgba(0, 0, 0, 0.7259278711484594) 33%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  position: absolute;
+  top: 6.3rem;
+}
+
+.head {
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--background);
+  width: 100%;
+}
+
+.manga-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.manga-image {
+  height: 372px;
+}
+
+.manga-image:hover {
+  transform: scale(1.1);
+  z-index: 999;
+}
+
+.manga-synopsis {
+  color: var(--light);
+  padding: 35px 70px;
+  padding: auto;
+  font-size: 1.2em;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.manga-title {
+  color: var(--light);
+  font-size: 3em;
+  text-align: center;
+  padding: 0 0 40px 0;
+}
+
+.corps {
+  display: flex;
+}
+
+.info-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--light);
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+.see-more {
+  background-color: var(--primary);
+  border-radius: 20px;
+  color: var(--secondary);
+  position: absolute;
+  left: 97%;
+  top: 98%;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.show-more {
+  overflow: visible;
+}
+
+.manga-extra-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-extra {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.navbar-extra > ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid var(--secondary);
+  background-color: var(--primary);
+}
+
+.navbar-extra > ul > li {
+  padding: 15px;
+  margin: 0;
+  color: var(--light);
+}
+
+.navbar-extra > ul > li:hover {
+  background-color: var(--background);
+  color: var(--light);
+  transition: all 200ms ease-in;
+}
+
+.active-extra {
+  background-color: var(--secondary);
+  color: var(--primary) !important;
+}
+
+/*
+* chapter
+*/
+
+.chapter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 200px;
+}
+
+.chapter-container p {
+  color: var(--secondary);
+}
+
+.chapterCard {
+  width: 200px;
+  margin: 20px;
+}
+
+.chapterCard > img {
+  height: 100px;
+}
+
+.chapterCard > p {
+  font-size: 1.2em;
+  color: var(--primary);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.skeleton-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skeleton-chapter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+/*
+* characterCard
+*/
+
+.characterCard {
+  width: 200px;
+  margin: 20px;
+}
+
+.chapter-content {
+  height: 300px;
+}
+
+.chapter-text,
+.character-name {
+  position: relative;
+  height: 300px;
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5px 5px 20px 5px;
+  text-align: center;
+}
+
+.chapter-text p {
+  margin: 10px;
+}
+
+.chapter-filter,
+.character-filter {
+  height: 300px;
+  width: 200px;
+  background: rgb(0, 0, 0);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9472163865546218) 0%,
+      rgba(0, 0, 0, 0.8687850140056023) 15%,
+      rgba(0, 0, 0, 0.7259278711484594) 33%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  position: absolute;
+}
+
+.characterCard > p {
+  font-size: 1.2em;
+  color: var(--primary);
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*
+* ReactionCart
+*/
+
+.reactionCard {
+  max-width: 300px;
+  padding: 15px;
+  margin: 15px;
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+
+.reactionCard > p {
+  font-size: 1.2em;
+  color: var(--secondary);
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .manga-info {
+    width: 100%;
+  }
+}

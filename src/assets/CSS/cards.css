@@ -1,0 +1,101 @@
+
+.cards .MuiCard-root {
+  width: 320px;
+}
+
+.react-card-flip {
+  margin: 25px;
+}
+
+.MuiCardContent-root,
+.MuiCardActions-root {
+  color: var(--primary);
+}
+
+.card-content {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-filter {
+  height: 500px;
+  width: 320px;
+  background: rgb(0, 0, 0);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9472163865546218) 0%,
+      rgba(0, 0, 0, 0.8687850140056023) 15%,
+      rgba(0, 0, 0, 0.7259278711484594) 33%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  position: absolute;
+  top: 0;
+}
+
+.cards-synopsis {
+  display: none;
+}
+
+.MuiCardContent-root {
+  width: 100%;
+}
+
+.rank {
+  text-align: center;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.cards-description {
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-title {
+  width: 90%;
+}
+
+.verso-cards {
+  height: 500px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--tersary) !important;
+}
+
+.cards-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.verso-container {
+  filter: grayscale(80%);
+  color: var(--primary);
+  text-align: center;
+  height: 440px;
+  margin-bottom: 15px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.randomCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

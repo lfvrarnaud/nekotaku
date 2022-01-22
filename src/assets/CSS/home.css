@@ -1,0 +1,84 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-margin {
+  width: 1500px;
+}
+
+.last-actu-container {
+  width: 100%;
+}
+
+.last-actu-filter {
+  height: 400px;
+  width: 1500px;
+  background: rgb(0, 0, 0);
+  background:
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9472163865546218) 0%,
+      rgba(0, 0, 0, 0.8687850140056023) 15%,
+      rgba(0, 0, 0, 0.7259278711484594) 33%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  position: absolute;
+}
+
+.last-actu-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.last-actu-text {
+  position: relative;
+  text-align: center;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.last-actu-text div {
+  color: var(--light);
+}
+
+.home-silder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-silder h3 {
+  color: white;
+  padding: 2em;
+}
+
+.home-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-bottom .mostpopulary {
+  margin: 0;
+}
+
+@media screen and (max-width: 1500px) {
+  .home-margin,
+  .last-actu-filter {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home-margin,
+  .last-actu-filter {
+    width: 100%;
+  }
+}

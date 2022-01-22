@@ -1,0 +1,101 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  color: var(--secondary);
+}
+
+.actus-form {
+  margin-right: 445px;
+  margin-left: -35px;
+}
+
+.user {
+  width: 40%;
+  margin: 20px;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user > p {
+  padding: 15px 0;
+}
+
+.user-setting .user-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bar-separation {
+  width: 90%;
+  height: 1px;
+  background-color: var(--primary);
+}
+
+.user-presntation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-avatar {
+  height: 300px;
+  width: 300px;
+}
+
+.user-info p,
+.user-info button {
+  margin: 20px;
+}
+
+/*
+* Modal user change info
+*/
+
+.form-change-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-user {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primary);
+  font-size: 1.3em;
+}
+
+.info-user > input {
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 3px;
+}
+
+/*
+* library read
+*/
+
+.user-container h3 {
+  margin-top: 5em;
+}
+
+.library-read {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

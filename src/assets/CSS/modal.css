@@ -1,0 +1,171 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.singin,
+.login {
+  background-color: var(--primary);
+  border-radius: 10px;
+  color: var(--secondary);
+  height: 400px;
+  width: 30%;
+  margin-top: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+
+.modal-title {
+  margin: 35px;
+  color: var(--secondary);
+  font-size: 1.5em;
+}
+
+.loginIcon {
+  cursor: pointer;
+}
+
+.login-form,
+.singin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.login-form input,
+.singin-form input {
+  color: var(--secondary);
+}
+
+.modal-actus .close-actus-modal {
+  position: fixed;
+  left: 47%;
+  top: 60%;
+}
+
+.actus-form {
+  border: var(--primary) solid 2px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.actus-form .input {
+  width: 80%;
+  margin: 15px 0;
+}
+
+.actus-form .modal-button {
+  margin: 2em 0;
+}
+
+.singin {
+  border-right: var(--secondary) solid 1px;
+}
+
+.login {
+  border-left: var(--secondary) solid 1px;
+}
+
+@media screen and (max-width: 1024px) {
+  .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+  }
+
+  .singin,
+  .login {
+    background-color: var(--primary);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: auto;
+    border: none;
+    border-bottom: 1px solid var(--secondary);
+  }
+
+  .singin {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .login {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .modal-title {
+    margin: 35px;
+    color: var(--secondary);
+    font-size: 1.5em;
+  }
+
+  .loginIcon {
+    cursor: pointer;
+  }
+
+  .register form,
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register form div,
+  .register form button,
+  .login-form form div,
+  .login-form form button {
+    margin: 15px;
+  }
+
+  .modal-separation {
+    width: 200px;
+    height: 1px;
+    background-color: var(--secondary);
+  }
+
+  .modal-actus .close-actus-modal {
+    position: fixed;
+    left: 47%;
+    top: 60%;
+  }
+
+  .actus-form {
+    border: var(--primary) solid 2px;
+    border-radius: 10px;
+    width: 320%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .actus-form .input {
+    width: 80%;
+    margin: 15px 0;
+  }
+
+  .actus-form .modal-button {
+    margin: 2em 0;
+  }
+
+  .singin,
+  .login {
+    margin-top: 0;
+  }
+
+  .clse-modal .close-modal {
+    margin-left: 44%;
+  }
+}

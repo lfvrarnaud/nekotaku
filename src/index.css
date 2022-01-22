@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import './assets/CSS/cards.css';
+@import './assets/CSS/cardRow.css';
+@import './assets/CSS/navbar.css';
+@import './assets//CSS/home.css';
+@import './assets/CSS/slider.css';
+@import './assets/CSS/manga.css';
+@import './assets/CSS/library.css';
+@import './assets/CSS/recommendation.css';
+@import './assets/CSS/user.css';
+@import './assets/CSS/footer.css';
+@import './assets/CSS/modal.css';
+@import './assets/CSS/commentaires.css';
+@import './assets/CSS/actus.css';
+
+:root {
+  --primary: #003f4f;
+  --secondary: #c3f9ff;
+  --tersary: #f4f4f4;
+  --light: #fff;
+  --dark: #000;
+  --background: #002D3D;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+}
+
+h2 {
+  padding: 2rem 1rem 2rem 1rem;
+  color: var(--secondary);
+  display: flex;
+  font-size: 2em;
+}
